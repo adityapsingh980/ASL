@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="project__heading">
+            <h1 class="project__heading__text">Speech-to-Sign Language Translator </h1>
+        </div>
+  </header>
+  <div class="menu__bar">
+    <div class="menu__bar__contents"><h3>Home</h3></div>
+    <div class="menu__bar__contents"><h3>Converter</h3></div>
+    <div class="menu__bar__contents"><h3>Contact</h3></div>
+    <div class="menu__bar__contents"><h3>Log-Out</h3></div>
+    <div class="menu__bar__contents"><h3>About</h3></div>
+  </div>
+
+    <main>
+        <div class="input">
+            <div class="column__1">
+                <label for="input__text"><h3 class="text__input">Enter Text or Speech</h3></label>
+                <br>
+             <div class="input__container">
+            <textarea id="input__text" rows="2" placeholder="Enter your text or speak here"></textarea>
+            <button id="submit__btn"><h4>Submit</h4></button>
+             </div>
+             </div>
+           <div class="vertical__line">
+
+           </div>
+         <div class="column__2">
+            <div class="output__container">
+            <div id="sign__language__container">
+                <h3 class="animation__text">Sign language animation</h3>
+                <br>
+                <button class="animation__btn"><h3 class="play__text">Play/Pause</h3></button>
+                <video width="200" height="340" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
